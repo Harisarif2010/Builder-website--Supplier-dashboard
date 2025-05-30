@@ -64,7 +64,7 @@ const Warranty = () => {
         </label>
       </div>
 
-      <div className="flex flex-row justify-end mt-14">
+      <div className="flex flex-row  justify-center md:justify-end mt-14">
         <button
           className={` ${poppins.variable}  bg-[var(--primary-blue)] text-white text-[24px] font-medium  rounded-[26px] h-13 flex justify-center items-center px-5`}
         >

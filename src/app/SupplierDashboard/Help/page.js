@@ -1,5 +1,7 @@
+import { poppins } from "@/app/fonts";
 import Image from "next/image";
 import React from "react";
+
 const Help = () => {
   return (
     <div className="bg-white rounded-[22px] p-5">
@@ -58,9 +60,9 @@ const Help = () => {
           </label>
         </div>
       </div>
-      <div className=" w-full flex  justify-end ">
+      <div className=" w-full flex  justify-center md:justify-end ">
         {" "}
-        <div className="flex   mt-10 gap-x-3">
+        <div className={`flex   mt-10 gap-x-3 ${poppins.variable}`}>
           {/* Back Button */}
           <button className=" bg-[var(--primary-blue)] text-white text-[20px] font-semibold px-6 py-3 rounded-[26px] h-14">
             Submit

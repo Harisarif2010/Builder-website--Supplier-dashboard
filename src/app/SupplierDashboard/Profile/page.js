@@ -1,11 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import { Pen } from "lucide-react";
-import { roboto } from "@/app/fonts";
+import { poppins } from "@/app/fonts";
 
 const EmployeePermission = () => {
   return (
-    <div className={roboto.className}>
+    <div>
       <h3 className="text-[#3B4758] text-2xl font-bold px-3 py-1">Profile</h3>
       <div className="bg-white rounded-[22px] p-3">
         <div
@@ -219,7 +219,9 @@ const EmployeePermission = () => {
           </div>{" "}
         </div>
       </div>
-      <div className="flex flex-row justify-end items-end my-4">
+      <div
+        className={`flex flex-row justify-center md:justify-end items-end my-4 ${poppins.variable}`}
+      >
         <button className=" bg-[var(--primary-blue)] text-white text-[24px] font-semibold  rounded-[26px] h-14 flex justify-center items-center px-5">
           Send
         </button>

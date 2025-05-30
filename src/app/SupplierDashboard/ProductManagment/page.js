@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 import { orders } from "@/app/data";
 import { Pencil, Trash2, Eye } from "lucide-react";
-import { roboto } from "@/app/fonts";
+import { poppins } from "@/app/fonts";
 import { useRouter } from "next//navigation";
 import { DeleteModal } from "../../../../Components/Modals/DeleteModal";
 import Image from "next/image";
@@ -84,7 +84,7 @@ const ProductManagment = () => {
       <div className="flex flex-row  justify-center md:justify-end items-end my-4 gap-x-3">
         <button
           onClick={navigate}
-          className={` ${roboto.variable}  bg-[var(--primary-blue)] text-white text-[13px] font-medium  rounded-[22px] h-11 flex justify-center items-center px-3 cursor-poniter`}
+          className={` ${poppins.variable}  bg-[var(--primary-blue)] text-white text-[13px] font-medium  rounded-[22px] h-11 flex justify-center items-center px-3 cursor-poniter`}
         >
           Add New Product
         </button>

@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
 
             {/* Page content */}
             <main
-              className={`p-2 ${poppins.className} ${roboto.className} ${inter.className} rounded-3xl`}
+              className={`p-2  ${roboto.className} ${poppins.className} ${inter.className} rounded-3xl`}
             >
               {children}
             </main>

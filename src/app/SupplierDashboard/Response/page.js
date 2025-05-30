@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { orders } from "@/app/data";
-import { roboto } from "@/app/fonts";
+import { poppins } from "@/app/fonts";
 import "../../../app/globals.css";
 import { ChevronDown, Image } from "lucide-react";
 import { useState } from "react";
@@ -132,8 +132,10 @@ const Response = () => {
         </div>
 
         {/* Submit Button */}
-        <div className="flex justify-end mt-10">
-          <button className=" bg-[var(--primary-blue)] text-white text-[16px] font-bold px-6 py-3 rounded-[26px]">
+        <div className="flex justify-center md:justify-end mt-10">
+          <button
+            className={`bg-[var(--primary-blue)] text-white text-[16px] font-bold px-6 py-3 rounded-[26px] ${poppins.variable}`}
+          >
             Submit Response
           </button>
         </div>

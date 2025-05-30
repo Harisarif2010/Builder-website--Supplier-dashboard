@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { DeclineModal } from "../../../../Components/Modals/DeclineModal";
+import { poppins } from "@/app/fonts";
 
 const QuotationRequest = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -61,9 +62,9 @@ const QuotationRequest = () => {
 
           {/* City (Input instead of Select) */}
         </div>
-        <div className=" w-full flex  justify-end ">
+        <div className=" w-full flex justify-center md:justify-end ">
           {" "}
-          <div className="flex   mt-10 gap-x-3">
+          <div className={`flex   mt-10 gap-x-3 ${poppins.variable}`}>
             {/* Back Button */}
             <button
               className="bg-[#BC3C1B] text-white text-[20px] font-semibold px-6 py-3 rounded-[22px] h-14"

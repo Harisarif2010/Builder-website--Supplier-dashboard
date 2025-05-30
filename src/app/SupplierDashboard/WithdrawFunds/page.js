@@ -1,5 +1,5 @@
 "use client";
-import { roboto } from "@/app/fonts";
+import { roboto, poppins } from "@/app/fonts";
 import React, { useState } from "react";
 import { WithdrawModal } from "../../../../Components/Modals/WithdrawModal";
 
@@ -59,7 +59,7 @@ const WithdrawFunds = () => {
 
             <div className=" w-full flex  justify-end my-3 ">
               {" "}
-              <div className="flex  gap-x-3">
+              <div className={`flex  gap-x-3 ${poppins.variable}`}>
                 {/* Back Button */}
                 <button className="bg-[#8F8F8F] text-white text-base font-medium flex justify-center items-center px-6 py-5 rounded-[22px] h-14 cursor-pointer">
                   Cancel

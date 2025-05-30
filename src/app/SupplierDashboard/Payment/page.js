@@ -1,6 +1,6 @@
 import { employeePermissions } from "@/app/data";
-import { roboto } from "@/app/fonts";
-import { Bell, FileText } from "lucide-react";
+import { poppins } from "@/app/fonts";
+import { FileText } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -182,7 +182,7 @@ const Payment = () => {
       </div>
       <div className=" w-full flex  justify-end my-3 ">
         {" "}
-        <div className="flex  gap-x-3">
+        <div className={`flex  gap-x-3 ${poppins.variable}`}>
           <button className="bg-[var(--green)] text-[white] text-[13px]  flex justify-center items-center  px-4 py-5   font-medium rounded-[22px] h-14">
             Withdraw Funds
           </button>

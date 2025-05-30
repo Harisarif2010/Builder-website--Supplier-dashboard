@@ -1,4 +1,4 @@
-import { roboto } from "@/app/fonts";
+import { poppins } from "@/app/fonts";
 import Image from "next/image";
 import React from "react";
 const AddProduct = () => {
@@ -77,7 +77,7 @@ const AddProduct = () => {
           </div>
           <div className="flex flex-row justify-end mt-14">
             <button
-              className={`${roboto.variable}  bg-[var(--primary-blue)] text-white text-[18px] font-bold px-6 py-3 rounded-[22px] h-12 `}
+              className={`${poppins.variable}  bg-[var(--primary-blue)] text-white text-[18px] font-bold px-6 py-3 rounded-[22px] h-12 `}
             >
               Submit
             </button>

@@ -83,7 +83,7 @@ const CartProduct = () => {
       </div>
       <div className=" w-full flex  justify-end my-3 ">
         {" "}
-        <div className="flex  gap-x-3">
+        <div className={`flex  gap-x-3 ${poppins.variable}`}>
           {/* Back Button */}
           <button className="bg-[#8F8F8F] text-white text-[20px] font-medium flex justify-center items-center px-4 py-5 rounded-[20px] h-8">
             Cancel

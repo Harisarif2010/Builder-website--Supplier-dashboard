@@ -1,6 +1,6 @@
 import React from "react";
 import { inquiryRequests } from "@/app/data";
-import { Trash2, Pencil, File, FileText } from "lucide-react";
+import { Trash2, FileText } from "lucide-react";
 
 const Inquiry = () => {
   return (
